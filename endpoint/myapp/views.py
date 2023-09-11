@@ -11,7 +11,7 @@ def get_info(request):
     current_utc_time = (datetime.utcnow() + timedelta(minutes=2)).strftime('%Y-%m-%dT%H:%M:%SZ')
 
     github_repo_url = 'https://github.com/backend/repo'
-    github_file_url = f'{github_repo_url}/blob/main/file_name.ext'
+    github_file_url = f'{github_repo_url}/blob/main/app.py'
 
     response_data = {
         "slack_name": slack_name,
