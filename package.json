@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is a Node.js project that returns a JSON response with the slack_name, current_day, utc_time, track, github_file_url, and github_repo_url.",
+  "main": "endpoint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Backend"
+  },
+  "author": "Christabell",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "express": "^4.18.2",
+    "moment": "^2.29.4"
+  }
+}
